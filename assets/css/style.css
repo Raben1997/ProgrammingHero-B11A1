@@ -464,3 +464,67 @@ header .logo {
   background: #fff;
   color: rgb(0, 106, 80);
 }
+/* Newsletter Section */
+.newsletter_sec {
+  padding-top: 80px;
+  text-align: center;
+}
+.newsletter_box {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 265px;
+}
+.newsletter_box h2 {
+  padding-bottom: 15px;
+}
+.newsletter_box p {
+  color: rgba(14, 14, 14, 0.7);
+}
+.newsletter_form {
+  margin: 24px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  background: #fff;
+  border-radius: 8px;
+}
+.newsletter_form input[type="email"] {
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 18px 40px 18px 40px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  width: calc(100% - 149px);
+}
+.newsletter_form input[type="email"]::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+}
+.newsletter_form input[type="submit"] {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  padding: 16px 34px 16px 34px;
+  box-shadow: none;
+  border: none;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.newsletter_form input[type="submit"]:hover {
+  background-color: rgb(2, 148, 112);
+}
+.newsletter_form input[type="email"],
+.newsletter_form input[type="submit"] {
+  height: 55px;
+}
