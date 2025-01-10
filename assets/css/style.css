@@ -116,7 +116,13 @@ header .logo {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   display: inline-block;
-  padding: 17px 35px;
+  padding: 16px 34px;
+  transition: 0.5s all;
+  border: 1px solid rgb(0, 106, 80);
+}
+.banner_btn:hover {
+  background: #fff;
+  color: #006a50;
 }
 /* Pillar Section */
 .pillar_sec {
